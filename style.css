@@ -1,14 +1,14 @@
 body {
   background-color: #444444;
   color: #dddddd;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:monospace;
   margin:10% 20%;
 }
 
 h1 {
   color: black;
   font-size: 50px;
-  font-family: Courier New, monospace, sans-serif; 
+  font-family: Arial, Helvetica, sans-serif; 
 }
 
 img {
@@ -16,6 +16,7 @@ img {
 }
 
 .header {
+  font-size: 15px;
   border: 3px solid black;
   background-color: gray;
   padding-left: 10px;
@@ -25,17 +26,35 @@ img {
 .exp-header {
   text-align: center;
   text-transform:uppercase;
+  font-size: 20px;
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd; 
   background-color:rgba(0,0,0,.1)
 }
 
 .exp-nuaire-header {
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, Sans-serif;
   border-bottom: 3px dashed white;
-
 }
+
+.exp-nuaire-text {
+  padding-left: 5px;
+  font-size: 15px;
+  font-family: monospace;
+  
+}
+
+.exp-starbucks-header {
+    border-bottom: 3px dashed white;
+  }
+
+.exp-army-header {
+  border-bottom: 3px dashed white;
+}
+
 div {
   border: 1px solid black;
-
 
 }
