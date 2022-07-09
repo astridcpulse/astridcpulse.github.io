@@ -1,42 +1,56 @@
 body {
-  background-color: #444444;
-  color: #dddddd;
+  background-color: #afa99d;
+  color: #38352e;
   font-family:monospace;
-  margin:10% 20%;
+  margin:5% 10%;
 }
 
-h1 {
-  color: black;
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif; 
-}
+
 
 img {
   width: 40%;
+  margin: 10px;
+  border-right: 2px solid #38352e;
+  border-bottom: 2px solid #38352e;
 }
 
-.header {
-  font-size: 15px;
-  border: 3px solid black;
-  background-color: gray;
-  padding-left: 10px;
-  padding-right: 10px;
+.name {
+  font-size: 50px;
+  color: #333333;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif; 
+  border-right: 1px solid #38352e;
+  border-bottom: 1px solid #38352e;
+  background-color: rgba(0,0,0,.1);
+  padding-left:10px;
+}
+
+summary {
+  background-color: #afa99d;
+  color: #38352e;
+  font-size: 20px;
+  font-family:monospace;
+  padding: 10px;
 }
 
 .exp-header {
   text-align: center;
   text-transform:uppercase;
+  font-family:monospace;
   font-size: 20px;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd; 
+  border-top: 1px solid #38352e;
+  border-bottom: 1px solid #38352e; 
   background-color:rgba(0,0,0,.1)
 }
 
 .exp-nuaire-header {
   padding-left: 10px;
+  margin-top: 20px;
   font-size: 20px;
+  font-weight: bold;
   font-family: Arial, Helvetica, Sans-serif;
-  border-bottom: 3px dashed white;
+  border-bottom: dashed;
+  
 }
 
 .exp-nuaire-text {
@@ -47,14 +61,36 @@ img {
 }
 
 .exp-starbucks-header {
-    border-bottom: 3px dashed white;
+  padding-left: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, Sans-serif;
+  border-bottom: dashed;
   }
 
-.exp-army-header {
-  border-bottom: 3px dashed white;
+.exp-starbucks-text {
+  padding-left: 5px;
+  font-size: 15px;
+  font-family: monospace;
 }
 
-div {
+.exp-army-header {
+  padding-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, Sans-serif;
+  border-bottom: dashed;
+}
+
+.exp-army-text {
+  padding-left: 5px;
+  font-size: 15px;
+  font-family: monospace;
+}
+
+*div {
   border: 1px solid black;
 
 }
