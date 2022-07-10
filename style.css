@@ -8,7 +8,7 @@ body {
 
 
 img {
-  width: 40%;
+  width: 100%;
   margin: 10px;
   border-right: 2px solid #38352e;
   border-bottom: 2px solid #38352e;
@@ -53,12 +53,14 @@ summary {
   
 }
 
-.exp-nuaire-text {
+.grid-exp-nuaire-text {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   padding-left: 5px;
   font-size: 15px;
   font-family: monospace;
-  
 }
+
 
 .exp-starbucks-header {
   padding-left: 10px;
@@ -69,7 +71,9 @@ summary {
   border-bottom: dashed;
   }
 
-.exp-starbucks-text {
+.grid-exp-starbucks-text {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   padding-left: 5px;
   font-size: 15px;
   font-family: monospace;
@@ -84,13 +88,15 @@ summary {
   border-bottom: dashed;
 }
 
-.exp-army-text {
+.grid-exp-army-text {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   padding-left: 5px;
   font-size: 15px;
   font-family: monospace;
 }
 
-*div {
-  border: 1px solid black;
-
+.grid-header {
+ display: grid; 
+  grid-template-columns: auto auto;
 }
