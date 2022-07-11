@@ -86,9 +86,9 @@ summary {
 
 .incubator-pic {
   width: 100%;
+  opacity: .85;
   margin: 10px;
-  border-right: 2px solid #38352e;
-  border-bottom: 2px solid #38352e;
+  filter: drop-shadow(7px 7px 9px #38352e);
 }
 
 .exp-starbucks-header {
@@ -111,8 +111,8 @@ summary {
 .starbucks-pic {
   width: 100%;
   margin: 10px;
-  border-right: 2px solid #38352e;
-  border-bottom: 2px solid #38352e;
+  filter: drop-shadow(7px 7px 9px #38352e);
+  opacity: .85;
 }
 
 .exp-army-header {
@@ -134,7 +134,7 @@ summary {
 
 .army-pic {
   width: 100%;
-  margin-top: 10px;
-  border-right: 2px solid #38352e;
-  border-bottom: 2px solid #38352e;
+  margin: 10px;
+  opacity: .85;
+  filter: drop-shadow(7px 7px 9px #38352e);
 }
