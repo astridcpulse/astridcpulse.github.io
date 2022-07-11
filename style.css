@@ -2,16 +2,11 @@ body {
   background-color: #afa99d;
   color: #38352e;
   font-family:monospace;
-  margin:10% 20%;
+  margin: 8% 15%;
 }
 
-
-
-img {
-  width: 100%;
-  margin: 10px;
-  border-right: 2px solid #38352e;
-  border-bottom: 2px solid #38352e;
+li {
+  margin-top: 10px;
 }
 
 .grid-header {
@@ -60,12 +55,18 @@ summary {
 
 .grid-exp-nuaire-text {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto 200px;
   padding-left: 5px;
   font-size: 15px;
   font-family: monospace;
 }
 
+.incubator-pic {
+  width: 100%;
+  margin: 10px;
+  border-right: 2px solid #38352e;
+  border-bottom: 2px solid #38352e;
+}
 
 .exp-starbucks-header {
   padding-left: 10px;
@@ -78,10 +79,17 @@ summary {
 
 .grid-exp-starbucks-text {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto 200px;
   padding-left: 5px;
   font-size: 15px;
   font-family: monospace;
+}
+
+.starbucks-pic {
+  width: 100%;
+  margin: 10px;
+  border-right: 2px solid #38352e;
+  border-bottom: 2px solid #38352e;
 }
 
 .exp-army-header {
@@ -95,9 +103,15 @@ summary {
 
 .grid-exp-army-text {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto 200px;
   padding-left: 5px;
   font-size: 15px;
   font-family: monospace;
 }
 
+.army-pic {
+  width: 100%;
+  margin-top: 10px;
+  border-right: 2px solid #38352e;
+  border-bottom: 2px solid #38352e;
+}
