@@ -10,8 +10,8 @@ li {
 }
 
 .grid-header {
- display: grid; 
-  grid-template-columns: auto auto;
+  display: grid; 
+  grid-template-columns: 325px 100px;
 }
 
 .name {
@@ -19,11 +19,34 @@ li {
   color: #333333;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif; 
-  border-right: 1px solid #38352e;
   border-bottom: 1px solid #38352e;
   background-color: rgba(0,0,0,.1);
   padding-left:10px;
 }
+
+.grid-animation {
+  margin-right: 50px;
+  border-right: 1px solid #38352e;
+  border-bottom: 1px solid #38352e;
+  background-color: rgba(0,0,0,.1);  
+}
+
+.square {
+  margin-top: 15px;
+  width: 25px;
+  animation: rotation 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(1790deg);
+  }
+}
+
 
 summary {
   background-color: #afa99d;
@@ -50,12 +73,12 @@ summary {
   font-weight: bold;
   font-family: Arial, Helvetica, Sans-serif;
   border-bottom: dashed;
-  
+
 }
 
 .grid-exp-nuaire-text {
   display: grid;
-  grid-template-columns: auto 200px;
+  grid-template-columns: auto auto;
   padding-left: 5px;
   font-size: 15px;
   font-family: monospace;
@@ -75,11 +98,11 @@ summary {
   font-weight: bold;
   font-family: Arial, Helvetica, Sans-serif;
   border-bottom: dashed;
-  }
+}
 
 .grid-exp-starbucks-text {
   display: grid;
-  grid-template-columns: auto 200px;
+  grid-template-columns: auto auto;
   padding-left: 5px;
   font-size: 15px;
   font-family: monospace;
@@ -103,7 +126,7 @@ summary {
 
 .grid-exp-army-text {
   display: grid;
-  grid-template-columns: auto 200px;
+  grid-template-columns: auto auto;
   padding-left: 5px;
   font-size: 15px;
   font-family: monospace;
