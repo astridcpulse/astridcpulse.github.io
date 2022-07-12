@@ -85,11 +85,48 @@ summary {
 }
 
 .incubator-pic {
+  display: block;
   width: 100%;
   opacity: .85;
   margin: 10px;
   filter: drop-shadow(7px 7px 9px #38352e);
 }
+
+*
+
+.inc-pic-area {
+  position: relative;
+  width: 100%;
+}
+
+.inc-image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 7%;
+  right: 0;
+  background-color: rgba(0,0,0,.6);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.grid-incubator-pic:hover .inc-image-overlay {
+  width: 100%;
+}
+
+.inc-overlay-text {
+  white-space: wrap; 
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+}
+
+*
 
 .exp-starbucks-header {
   padding-left: 10px;
