@@ -92,7 +92,7 @@ summary {
   filter: drop-shadow(7px 7px 9px #38352e);
 }
 
-*
+
 
 .inc-pic-area {
   position: relative;
@@ -124,9 +124,10 @@ summary {
   top: 50%;
   left: 50%;
   transform: translate(-40%, -50%);
+   -ms-transform: translate(-50%, -50%);
 }
 
-*
+
 
 .exp-starbucks-header {
   padding-left: 10px;
