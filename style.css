@@ -111,7 +111,7 @@ summary {
   transition: .5s ease;
 }
 
-.grid-incubator-pic:hover .inc-image-overlay {
+.inc-pic-area:hover .inc-image-overlay {
   width: 100%;
 }
 
@@ -124,7 +124,6 @@ summary {
   top: 50%;
   left: 50%;
   transform: translate(-40%, -50%);
-   -ms-transform: translate(-50%, -50%);
 }
 
 
