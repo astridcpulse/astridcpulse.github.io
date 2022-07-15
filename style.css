@@ -63,7 +63,7 @@ summary {
   font-size: 20px;
   border-top: 1px solid #38352e;
   border-bottom: 1px solid #38352e; 
-  background-color:rgba(0,0,0,.1)
+  background-color:rgba(0,0,0,.1);
 }
 
 .grid-education {
@@ -73,7 +73,7 @@ summary {
   font-size: 14px;
   padding-bottom: 10px;
   font-family: monospace;
-  font-weight: bold 
+  font-weight: bold; 
 }
 
 .grid-education-date {
@@ -263,6 +263,6 @@ summary {
   font-size: 14px;
   padding-bottom: 10px;
   font-family: monospace;
-  font-weight: bold 
+  font-weight: bold; 
 }
 
