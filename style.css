@@ -221,6 +221,7 @@ summary {
   width: 100%;
   opacity: .85;
   margin: 10px;
+  margin-bottom: 50px;
   filter: drop-shadow(7px 7px 9px #38352e);
 }
 
