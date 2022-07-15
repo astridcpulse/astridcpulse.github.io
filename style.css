@@ -174,7 +174,7 @@ summary {
 }
 
 .starbucks-overlay-text {
-  white-space: wrap; 
+  white-space: nowrap; 
   color: white;
   font-size: 17px;
   position: absolute;
@@ -239,3 +239,4 @@ summary {
   top: 50%;
   left: 50%;
   transform: translate(-70%, -50%);
+}
