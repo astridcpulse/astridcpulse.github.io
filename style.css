@@ -93,7 +93,6 @@ summary {
 }
 
 
-
 .inc-pic-area {
   position: relative;
   width: 100%;
@@ -102,7 +101,7 @@ summary {
 .inc-image-overlay {
   position: absolute;
   bottom: 0;
-  left: 7%;
+  left: 10px;
   right: 0;
   background-color: rgba(0,0,0,.6);
   overflow: hidden;
@@ -123,7 +122,7 @@ summary {
   overflow: hidden;
   top: 50%;
   left: 50%;
-  transform: translate(-40%, -50%);
+  transform: translate(-70%, -50%);
 }
 
 
@@ -146,10 +145,43 @@ summary {
 }
 
 .starbucks-pic {
+  display: block;
   width: 100%;
+  opacity: .85;
   margin: 10px;
   filter: drop-shadow(7px 7px 9px #38352e);
-  opacity: .85;
+}
+
+.starbucks-pic-area {
+  position: relative;
+  width: 100%;
+}
+
+.starbucks-image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  background-color: rgba(0,0,0,.6);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.starbucks-pic-area:hover .starbucks-image-overlay {
+  width: 100%;
+}
+
+.starbucks-overlay-text {
+  white-space: wrap; 
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -50%);
 }
 
 .exp-army-header {
@@ -170,8 +202,40 @@ summary {
 }
 
 .army-pic {
+  display: block;
   width: 100%;
-  margin: 10px;
   opacity: .85;
+  margin: 10px;
   filter: drop-shadow(7px 7px 9px #38352e);
 }
+
+.army-pic-area {
+  position: relative;
+  width: 100%;
+}
+
+.army-image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  background-color: rgba(0,0,0,.6);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.army-pic-area:hover .army-image-overlay {
+  width: 100%;
+}
+
+.army-overlay-text {
+  white-space: wrap; 
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -50%);
