@@ -13,7 +13,7 @@ body{
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  z-index: 0;
+  z-index: -1;
   filter: opacity(55%);
 }
 
@@ -74,7 +74,8 @@ section{
 
 .icon-bar {
   width: 90px;
-  background-color: rgb(194, 155, 155);
+  background-color: rgba(48, 48, 48, 0.85);
+  box-shadow: 0px 0px 20px 20px black;
 }
 
 .icon-bar a {
@@ -82,14 +83,16 @@ section{
   text-align: center;
   padding: 16px;
   transition: all 0.3s ease;
-  color: white;
+  color: rgb(33, 33, 33);
   font-size: 36px;
+  box-shadow: inset 0px 0px 20px 0px #a78080;
+
 }
 
 .icon-bar a:hover {
-  background-color: rgb(49, 21, 21);
+  background-color: rgb(26, 26, 26);
 }
 
 .active {
-  background-color: #7c7c7c;
+  background-color: rgba(137, 0, 0, 0.85) ;
 }
