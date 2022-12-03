@@ -37,7 +37,7 @@ body{
 }
 /* end title page styling */
 
-
+/* global section style */
 
 section{
   padding: 20px;
@@ -47,4 +47,49 @@ section{
   background-color: black;
   color: white;
   z-index: 1;
+  border-color: azure;
+  
+}
+
+/* end global section styling */
+
+.section-about{
+  border-bottom-right-radius: 30%;
+  border-style: none none solid solid;
+  box-shadow: 0px -12px 20px 0px rgb(0 0 0);
+  border-width: 10px;
+  z-index: 3;
+}
+
+.section-projects{
+  border-top-right-radius: 30%;
+  border-style: solid none none solid;
+  box-shadow: 0px 12px 20px 0px rgb(0 0 0);
+  border-width: 10px;
+  z-index: 3;
+}
+
+
+/*  icon bar */
+
+.icon-bar {
+  width: 90px;
+  background-color: rgb(194, 155, 155);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: rgb(49, 21, 21);
+}
+
+.active {
+  background-color: #7c7c7c;
 }
