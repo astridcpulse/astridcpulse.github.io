@@ -22,7 +22,7 @@ body{
   width: 100%;
   padding: 20px;
   z-index: 1;
-  margin-left: 20%;
+  /* margin-left: 20%; */
   text-align: left;
 }
 
@@ -45,8 +45,6 @@ body{
     'about about about tech tech tech'
     'project project project project project project';
   gap: 10px;
-  /* grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr; */
 }
 
 .item1 { grid-area: about; }
