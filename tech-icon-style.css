@@ -147,13 +147,15 @@
     width: 130px;
     color: #fff;
     text-align: center;
-    opacity: 0;
-    transition: .5s ease-in-out;
-    top: -50px;
-
     position: absolute;
     z-index: 7;
     right: -40px;
+
+    /* initial transition state */
+    opacity: 0;
+    transition: .5s ease-in-out;
+    top: -50px;
+    /* end initial transition state */
 }
 
 .hover-icon:hover:before {
