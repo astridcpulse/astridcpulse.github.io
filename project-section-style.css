@@ -11,6 +11,12 @@
     margin-left: 20%;
 
   }
+
+  /* lets do an on click type of thing that can display this video when clicking the QSC title? */
+  #qscVideo{
+    width: 40vw;
+    height: auto;
+  }
   
 
 
