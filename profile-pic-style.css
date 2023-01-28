@@ -1,12 +1,15 @@
 .item2{
     display: flex;
-    height: fit-content;
+    /* position: absolute; */
+    height: 30vh;
+    width: 50vw;
+    min-width: 300px;
 }
 img.headshot{
-    width: 25%;
-    height: auto;
-    display: inline-block;
-    filter: grayscale(50%);
+  width: auto;
+  height: 100%;
+  display: inline-block;
+  filter: grayscale(50%);
 }
 .typewriter{
     font-size: 20px;
@@ -19,72 +22,18 @@ img.headshot{
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
-        typing 2s steps(25, end),
+        typing 3s steps(18, end),
         blink-caret .75s step-end infinite;
 }
 
-.secondline{
-    float:left;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-        typing2 3.5s steps(45, end),
-        blink-caret .75s step-end infinite;
-    animation-delay: 2s;
-}
-.thirdline{
-    opacity: 0;
-
-    float:left;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-        typing3 2s steps(25, end),
-        blink-caret .75s step-end infinite;
-    animation-delay: 5.5s;
-}
-.fourthline{
-    opacity: 0;
-    float:left;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-        typing4 2s steps(25, end),
-        blink-caret .75s step-end infinite;
-    animation-delay: 7.5s;
-}
-
-  /* The typing effect */
+  /* typing effect  */
   @keyframes typing {
     0% { width: 0; opacity:0; }
     1% {width: 0; opacity: 1;}
-    100% { width: 25ch; opacity: 1; }
+    100% { width: 18ch; opacity: 1; }
   }
-  @keyframes typing2 {
-    0% { width: 0; opacity:0; }
-    1% {width: 0; opacity: 1;}
-    100% { width: 30ch; opacity:1; }
-  }
-  @keyframes typing3 {
-    from { width: 0 }
-    to { width: 25ch }
-  }
-  @keyframes typing4 {
-    from { width: 0 }
-    to { width: 25ch }
-  }
-  
-  /* The typewriter cursor effect */
+ /* cursor */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: orange; }
+    50% { border-color: rgb(212, 212, 212); }
   }
