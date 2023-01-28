@@ -1,9 +1,8 @@
 .content-box {
     font-size: 36px;
-    font-family: Averia Serif Libre;
-    
-    margin: 0;
     grid-auto-flow: column;
+    margin: 0;
+    
 }
 
 .content-box h1{

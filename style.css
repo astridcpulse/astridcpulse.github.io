@@ -1,18 +1,19 @@
 /* global styling */
 body{
-  margin: 0px;  
-  background: black
-/* z-index: 2; */
+  margin: 2vw;  
+  background: black;
+  font-family: Averia Serif Libre;
+
 }
 /* end global styling */
 
 /* Title page styling */
 #myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  position: absolute;
+  /* right: 50%; */
+  top: 10%;
+  height: 100%;
+  width: 100%;
   z-index: -1;
   filter: opacity(55%);
 }
@@ -20,16 +21,16 @@ body{
 .title-page {
   color: #f1f1f1;
   width: 100%;
-  padding: 20px;
+  padding: 5vh;
   z-index: 1;
-  /* margin-left: 20%; */
+  margin-left: 10vw;
   text-align: left;
 }
 
 #title-name{
   font-family: Averia Serif Libre;
-  font-size: 10em;
-  padding-left: .1em;
+  font-size: 20vmin;
+  padding-left: .1vmin;
 }
 
 #title-sub-name{
@@ -75,21 +76,14 @@ section{
   z-index: 3;
 }
 
-/* .item2{
-
-} */
-
-/* .item3{
-  tech
-} */
-
-
 /* end specific section styling */
 
 
 /*  icon bar */
 .icon-bar {
-  width: 90px;
+  
+  min-width: 70px;
+  width: 5vw;
   background-color: rgba(48, 48, 48, 0.85);
   box-shadow: 0px 0px 20px 20px black;
   position: fixed;
@@ -101,7 +95,7 @@ section{
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 16px;
+  padding: 10%;
   transition: all 0.3s ease;
   color: rgb(33, 33, 33);
   font-size: 36px;
