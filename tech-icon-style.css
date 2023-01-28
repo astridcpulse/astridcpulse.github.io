@@ -1,14 +1,9 @@
 .item3 {
     font-size: 36px;
-    margin: 0;
     width: 40vw;
     height: 40vh;
 }
 
-.item3 h1{
-    position: sticky;
-    
-}
 .icon-box{
     display: flex;
     flex-wrap: wrap;

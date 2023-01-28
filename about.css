@@ -1,5 +1,10 @@
-.item1 p{
+.item1{
     font-size: 20px;
-    font-family: Averia Serif Libre;
-    grid-auto-flow: column;
+    font-family: Averia Serif Libre; 
+    margin-left: 20%;
+
+}
+.item1 h2{
+    position: sticky;
+    font-size: 36px;
 }
