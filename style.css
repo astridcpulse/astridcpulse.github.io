@@ -8,19 +8,20 @@ body{
 /* end global styling */
 
 /* Title page styling */
-#myVideo {
+/* #myVideo {
   position: absolute;
-  /* right: 50%; */
-  top: 10%;
-  height: 100%;
-  width: 100%;
+  top: 0;
+  right: 0;
+  height: 100vw;
+  width: 100vh;
   z-index: -1;
   filter: opacity(55%);
-}
+} */
 
 .title-page {
   color: #f1f1f1;
   width: 100%;
+  height: 30vm;
   padding: 5vh;
   z-index: 1;
   margin-left: 10vw;
