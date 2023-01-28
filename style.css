@@ -55,15 +55,15 @@ body{
 
 /* global section style */
 section{
-  padding: 20px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  padding: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
   position: sticky;
   background-color: black;
   color: white;
   z-index: 3;
   border-color: rgba(240, 255, 255, 0.421);
-  margin-left: 10%;
+  margin-left: 20%;
 }
 /* end global section styling */
 
