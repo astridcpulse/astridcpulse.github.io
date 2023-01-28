@@ -1,11 +1,11 @@
-.content-box {
+.item3 {
     font-size: 36px;
-    grid-auto-flow: column;
     margin: 0;
-    
+    width: 40vw;
+    height: 40vh;
 }
 
-.content-box h1{
+.item3 h1{
     position: sticky;
     
 }
